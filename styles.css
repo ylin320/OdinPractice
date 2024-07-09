@@ -54,12 +54,13 @@ h1 {
     margin: 0;
 }
 
-button {
+.hbutton {
     font-size: 18px;
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 5px;
     padding: 9px 40px;
+    border: none;
 }
 
 .title img {
@@ -130,4 +131,43 @@ h4 {
     color: #1F2937;
     font-weight: bold;
     padding: 0 50px;
+}
+
+.footer {
+    display: flex;
+    background-color: #3882f6;
+    margin: 100px 240px;
+    justify-content: center;
+    gap: 120px;
+    padding: 60px
+}
+
+.ftext {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.ftitle {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #F9faf8;
+    margin: 0;
+}
+
+.fcontent {
+    font-size: 18px;
+    color: #F9faf8;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.fbutton {
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 9px 40px;
+    border: 2px solid white;
+
 }
