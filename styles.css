@@ -19,8 +19,6 @@ body {
     color: #F9faf8;
 }
 
-.menu {}
-
 .menu,
 h2 {
     font-size: 18px;
@@ -64,8 +62,47 @@ button {
     padding: 9px 40px;
 }
 
-img {
+.title img {
     width: 500px;
     height: 300px;
     object-fit: cover;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: center;
+}
+
+.images img {
+    border: 4px solid #e5e7eb;
+    border-radius: 5px;
+    width: 220px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.images {
+    padding: 10px 240px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.image1,
+.image2,
+.image3,
+.image4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    width: 220px;
+    height: 150px;
+    color: #1F2937;
+    text-align: center;
+    font-size: 18px;
 }
